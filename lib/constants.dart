@@ -1,4 +1,4 @@
-import '../custom_widgets.dart';
+import '../list_of_imports.dart';
 
 const kSendButtonTextStyle = TextStyle(
   color: Colors.lightBlueAccent,

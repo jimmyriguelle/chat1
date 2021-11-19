@@ -1,4 +1,4 @@
-import 'package:chat1/custom_widgets.dart';
+import 'package:chat1/list_of_imports.dart';
 
 class RoundedButton extends StatelessWidget {
   const RoundedButton(

@@ -1,4 +1,4 @@
-import '../custom_widgets.dart';
+import '../list_of_imports.dart';
 
 class RegistrationScreen extends StatefulWidget {
   const RegistrationScreen({Key? key}) : super(key: key);

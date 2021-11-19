@@ -1,4 +1,4 @@
-import '../custom_widgets.dart';
+import '../list_of_imports.dart';
 
 class ChatScreen extends StatefulWidget {
   const ChatScreen({Key? key}) : super(key: key);

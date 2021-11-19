@@ -1,4 +1,4 @@
-import '../custom_widgets.dart';
+import '../list_of_imports.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({Key? key}) : super(key: key);

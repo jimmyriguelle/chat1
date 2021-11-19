@@ -1,4 +1,4 @@
-import '../custom_widgets.dart';
+import '../list_of_imports.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -70,9 +70,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   try {
                     final user = await _auth.signInWithEmailAndPassword(
                         email: email, password: password);
-                    if (user != null) {
-                      Navigator.pushNamed(context, ChatScreen.id);
-                    }
+                    Navigator.pushNamed(context, ChatScreen.id);
                     setState(() {
                       showSpinner = false;
                     });
